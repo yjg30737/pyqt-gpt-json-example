@@ -1,5 +1,5 @@
 # pyqt-gpt-json-example
-PyQt GUI gpt json mode response example
+PyQt GUI gpt json mode response example.
 
 [![](https://img.shields.io/badge/한국어-readme-green)](https://github.com/yjg30737/pyqt-gpt-json-example/blob/main/README.kr.md)
 
