@@ -1,4 +1,5 @@
 import copy
+import json
 
 from openai import OpenAI
 
@@ -43,7 +44,7 @@ class GPTJsonWrapper:
         for _ in self.__columns:
             cur_obj['json_format'].update({_: []})
 
-        return eval(self.get_response(response_format="json_object", objective=cur_obj))
+        return json.loads(self.get_response(response_format="json_object", objective=cur_obj))
 
 
     def get_response(
